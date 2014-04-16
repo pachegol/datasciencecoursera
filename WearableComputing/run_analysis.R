@@ -84,6 +84,9 @@ means.and.stdev <- data.frame(features=features.data[,2],
                     stdev = (sapply(X.data, sd))
                     )
 
+# you can see the results on GitHub as well
+
+write.table(means.and.stdev, "meansAndStdev.txt")
 
 
 # now, to create the second tidy dataset  we are going to need to add the activities to
